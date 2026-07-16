@@ -8,7 +8,7 @@ class Gbm < Formula
   depends_on "git" => :recommended
 
   def install
-    inreplace "gbm", "GBM_VERSION_PLACEHOLDER", version
+    inreplace "gbm", 'GBM_VERSION=""', "GBM_VERSION=\"#{version}\""
     bin.install "gbm"
   end
 
