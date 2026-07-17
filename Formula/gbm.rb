@@ -10,6 +10,7 @@ class Gbm < Formula
   def install
     inreplace "gbm", 'GBM_VERSION=""', "GBM_VERSION=\"#{version}\""
     bin.install "gbm"
+    man1.install "gbm.1"
   end
 
   test do
