@@ -4,7 +4,6 @@ Homebrew tap for mtanneer's CLI tools.
 
 ```
 brew tap mtanneer/tools
-brew install gbm
 ```
 
 Formulas in this tap are updated automatically by each tool's release
