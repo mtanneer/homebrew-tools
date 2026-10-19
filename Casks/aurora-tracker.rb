@@ -1,10 +1,10 @@
 cask "aurora-tracker" do
-  version "1.0.0"
-  sha256 "00cb6b9cc774604e1b16372ddd92b0fa76b13ae2ee4a8577b16b9fc9ad414fff"
+  version "2.0.0"
+  sha256 "e6ffb337662e41e12d6c92d0c24048651c52a5113bbf758f35885665e117b26f"
 
   url "https://github.com/mtanneer/apps.macos.aurora-tracker-widget/releases/download/v#{version}/AuroraTracker-#{version}.zip"
   name "Aurora Tracker"
-  desc "Live NOAA Kp index, aurora outlook and desktop widget"
+  desc "Aurora chance, cloud cover and desktop widget"
   homepage "https://github.com/mtanneer/apps.macos.aurora-tracker-widget"
 
   livecheck do
