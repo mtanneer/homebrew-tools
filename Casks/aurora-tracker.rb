@@ -16,6 +16,9 @@ cask "aurora-tracker" do
 
   app "AuroraTracker.app"
 
+  # quit first so an upgrade doesn't leave the old widget extension running
+  uninstall quit: "manas.projects.AuroraTracker"
+
   zap trash: [
     "~/Library/Containers/manas.projects.AuroraTracker",
     "~/Library/Containers/manas.projects.AuroraTracker.AuroraWidget",
